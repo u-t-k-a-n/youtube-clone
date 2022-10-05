@@ -1,0 +1,63 @@
+@import "App.css";
+
+.card-container{
+    width: 360px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.card-img{
+    width: 100%;
+    height: 200px;
+    background-color: #999;
+}
+
+.details{
+    display: flex;
+    margin-top: 12px;
+    gap: 12px;
+}
+
+.channel-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #999;
+}
+
+.video-title{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#light .video-title{
+    color: var(--light-mode-text-color)
+}
+
+#dark .video-title{
+    color: var(--dark-mode-text-color)
+}
+
+.channel-name{
+    font-size: 14px;
+}
+
+#light .channel-name{
+    color: var(--light-mode-text-color-soft)
+}
+
+#dark .channel-name{
+    color: var(--dark-mode-text-color-soft)
+}
+
+.info{
+    font-size: 14px;
+}
+
+#light .info{
+    color: var(--light-mode-text-color-soft)
+}
+
+#dark .info{
+    color: var(--dark-mode-text-color-soft)
+}

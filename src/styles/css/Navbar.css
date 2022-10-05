@@ -1,0 +1,70 @@
+@import "App.css";
+
+.navbar-container{
+    position: sticky;
+    top: 0;
+    height: 54px;
+}
+
+#light .navbar-container{
+    background-color: var(--light-mode-background-color-light);
+}
+
+#dark .navbar-container{
+    background-color: var(--dark-mode-background-color-light);
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 20px;
+    height: 100%;
+    position: relative;
+}
+
+.search{
+    width: 40%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.img{
+    height: 20px;
+}
+
+.input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+#light .input{
+    color: var(--light-mode-text-color);
+}
+
+#dark .input{
+    color: var(--dark-mode-text-color);
+}
+
+.sign-btn{
+    padding: 5px 15px;
+    background-color: transparent;
+    border: 2px solid #3ea6ff;
+    color: #3ea6ff;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}

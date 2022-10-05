@@ -1,0 +1,20 @@
+:root{
+--dark-mode-background-color: #181818;
+--dark-mode-background-color-light: #202020;
+--dark-mode-text-color: white;
+--dark-mode-text-color-soft: #aaaaaa;
+--dark-mode-soft-color: #373737;
+--light-mode-background-color: #f9f9f9;
+--light-mode-background-color-light: white;
+--light-mode-text-color: black;
+--light-mode-text-color-soft: #606060;
+--light-mode-soft-color: #f5f5f5;
+}
+
+#light{
+ background-color: var(--light-mode-background-color);
+}
+
+#dark{
+ background-color: var(--dark-mode-background-color);
+}

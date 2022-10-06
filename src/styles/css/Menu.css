@@ -29,6 +29,14 @@
     margin-left: 10px;
 }
 
+#light .item:hover{
+    background-color: var(--light-mode-soft-color);
+}
+
+#dark .item:hover{
+    background-color: var(--dark-mode-soft-color);
+}
+
 .img{
     height: 30px;
 }

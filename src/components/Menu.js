@@ -29,6 +29,7 @@ export default function Menu({ theme, toggleTheme }) {
                             <img src={YoutubeLogo} alt="youtube-logo" style={{ height: "50px" }} />
                             YouTube
                         </div>
+                    </Link>
                         <div className='item'>
                             <img src={HomeLogo} alt="home" className='img' />
                             Home
@@ -90,7 +91,6 @@ export default function Menu({ theme, toggleTheme }) {
                             <img src={SettingsBrightnessLogo} alt="home" className='img' />
                             {theme === "dark" ? "Dark" : "Light"} Mode
                         </div>
-                    </Link>
                 </div>
             </div>
         </div >

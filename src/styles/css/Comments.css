@@ -1,0 +1,32 @@
+@import "App.css";
+
+.new-comment{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.new-comment-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.new-comment-input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: transparent;
+    margin-top: -15px;
+}
+
+#light .new-comment-input{
+    color: var(--light-mode-text-color);
+    border-bottom: 1px solid var(--light-mode-soft-color);
+}
+
+#dark .new-comment-input{
+    color: var(--dark-mode-text-color);
+    border-bottom: 1px solid var(--dark-mode-soft-color);
+}

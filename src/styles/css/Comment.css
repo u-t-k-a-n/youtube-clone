@@ -1,0 +1,50 @@
+@import "App.css";
+
+.comment-container{
+    display: flex;
+    gap: 10px;
+    margin: 30px 0px;
+}
+
+.comment-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.comment-details{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#light .comment-details{
+    color: var(--light-mode-text-color);
+}
+
+#dark .comment-details{
+    color: var(--dark-mode-text-color);
+}
+
+.comment-name{
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.comment-date{
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+#light .comment-date{
+    color: var(--light-mode-text-color-soft);
+}
+
+#dark .comment-date{
+    color: var(--dark-mode-text-color-soft);
+}
+
+.comment-text{
+    font-size: 14px;
+}

@@ -1,0 +1,138 @@
+@import "App.css";
+
+.video-container{
+    display: flex;
+    gap: 10x;
+    margin-left: -30px;
+}
+
+.video-content{
+    flex: 5;
+    padding: 0 30px 0 0;
+}
+
+.video-title{
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#light .video-title{
+    color: var(--light-mode-text-color);
+}
+
+#dark .video-title{
+    color: var(--dark-mode-text-color);
+}
+
+.video-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#light .video-info{
+    color: var(--light-mode-text-color-soft);
+}
+
+#dark .video-info{
+    color: var(--dark-mode-text-color-soft);
+}
+
+.video-buttons{
+    display: flex;
+    gap: 10px;
+}
+
+#light .video-buttons{
+    color: var(--light-mode-text-color);
+}
+
+#dark .video-buttons{
+    color: var(--dark-mode-text-color);
+}
+
+.video-button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.video-seperator{
+    margin: 15px 0;
+    border: 1px solid var(--dark-mode-soft-color)
+}
+
+.channel{
+    display: flex;
+    justify-content: space-between;
+}
+
+.channel-info{
+    display: flex;
+    gap: 10px;
+}
+
+.channel-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.channel-details{
+    display: flex;
+    flex-direction: column;
+}
+
+#light .channel-details{
+    color: var(--light-mode-text-color);
+}
+
+#dark .channel-details{
+    color: var(--dark-mode-text-color);
+}
+
+.channel-name{
+    font-weight: 500;
+}
+
+.channel-subscribers{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+#light .channel-subscribers{
+    color: var(--light-mode-text-color-soft);
+}
+
+#dark .channel-subscribers{
+    color: var(--dark-mode-text-color-soft);
+}
+
+.description{
+    font-size: 14px;
+}
+
+.subscribe-button{
+    background-color: #cc1a00;
+    font-weight: 500;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    height: max-content;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.recommandation{
+    flex: 2;
+    margin-right: -50px;
+}
+
+.button-logo{
+    width: 20px;
+    height: 20px;
+}

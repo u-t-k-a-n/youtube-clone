@@ -33,7 +33,7 @@ export default function Card({ type }) {
                             style={{ display: type === "sm" ? "none" : "" }}
                         />
                     </div>
-                    <div>
+                    <div style={{ marginTop: type !== "sm" ? "-20px" : ""}}>
                         <h1 className='video-title'>Test Video</h1>
                         <h2 className='channel-name'>Test Channel</h2>
                         <div className='info'>1M views • 1 day ago</div>
